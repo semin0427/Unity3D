@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F11C7B64-A0C3-51CD-13F2-18E5678B4982}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AtkRange.cs" />
+     <Compile Include="Assets\Attack.cs" />
+     <Compile Include="Assets\Fade.cs" />
+     <Compile Include="Assets\Script\Area.cs" />
+     <Compile Include="Assets\Script\Astar\Grid.cs" />
+     <Compile Include="Assets\Script\Astar\Heap.cs" />
+     <Compile Include="Assets\Script\Astar\Node.cs" />
+     <Compile Include="Assets\Script\Astar\PathRequestManager.cs" />
+     <Compile Include="Assets\Script\Astar\Pathfinding.cs" />
+     <Compile Include="Assets\Script\Astar\unitTest.cs" />
+     <Compile Include="Assets\Script\CameraManager.cs" />
+     <Compile Include="Assets\Script\CsEnding.cs" />
+     <Compile Include="Assets\Script\CsInfinity.cs" />
+     <Compile Include="Assets\Script\CsTree.cs" />
+     <Compile Include="Assets\Script\EnemyCreater.cs" />
+     <Compile Include="Assets\Script\FadeText.cs" />
+     <Compile Include="Assets\Script\GridManager.cs" />
+     <Compile Include="Assets\Script\LevelControl.cs" />
+     <Compile Include="Assets\Script\ListManager.cs" />
+     <Compile Include="Assets\Script\PlayManager.cs" />
+     <Compile Include="Assets\Script\PlayerScript.cs" />
+     <Compile Include="Assets\Script\ResultManager.cs" />
+     <Compile Include="Assets\Script\ScoreManager.cs" />
+     <Compile Include="Assets\Script\ScrollControl.cs" />
+     <Compile Include="Assets\Script\SoundManager.cs" />
+     <Compile Include="Assets\Script\StageManager.cs" />
+     <Compile Include="Assets\Script\TextFade.cs" />
+     <Compile Include="Assets\Script\TitleCameraAction.cs" />
+     <Compile Include="Assets\Script\Tutorial\TutorialPlay.cs" />
+     <Compile Include="Assets\Script\Tutorial\mouseTwinkle.cs" />
+     <Compile Include="Assets\Script\UIManager.cs" />
+     <Compile Include="Assets\Script\Unit\ATK\ATKArcher.cs" />
+     <Compile Include="Assets\Script\Unit\ATK\ATKCatapult.cs" />
+     <Compile Include="Assets\Script\Unit\ATK\ATKHorseMan.cs" />
+     <Compile Include="Assets\Script\Unit\ATK\ATKSpear.cs" />
+     <Compile Include="Assets\Script\Unit\ATK\ATKSwordMan.cs" />
+     <Compile Include="Assets\Script\Unit\ATK\AtkUnit.cs" />
+     <Compile Include="Assets\Script\Unit\ATK\CsEnemyBasecamp.cs" />
+     <Compile Include="Assets\Script\Unit\CsPreSet.cs" />
+     <Compile Include="Assets\Script\Unit\CsUnit.cs" />
+     <Compile Include="Assets\Script\Unit\DEF\DEFArcher.cs" />
+     <Compile Include="Assets\Script\Unit\DEF\DEFCatapult.cs" />
+     <Compile Include="Assets\Script\Unit\DEF\DEFHorse.cs" />
+     <Compile Include="Assets\Script\Unit\DEF\DEFSpearMan.cs" />
+     <Compile Include="Assets\Script\Unit\DEF\DEFSwordMan.cs" />
+     <Compile Include="Assets\Script\Unit\DEF\DefUnit.cs" />
+     <Compile Include="Assets\Script\Unit\DEF\Worker.cs" />
+     <Compile Include="Assets\Script\titleAction.cs" />
+     <Compile Include="Assets\SoundStart.cs" />
+     <Compile Include="Assets\tutorialImage.cs" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+     <None Include="Assets\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
+     <None Include="Assets\Resources\Image\NewSurfaceShader.shader" />
+     <None Include="Assets\Resources\level_data.txt" />
+     <None Include="Assets\DualCorStudios\Readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
